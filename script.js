@@ -21,5 +21,7 @@ function drawChart(players, points, chart_name) {
 
     return wykres;
 }
-
-drawChart(['julian', 'radek', 'kamil', 'tomek'], [5, 3, 12, 1], 'Statistics')
+let players = ['julian', 'radek', 'kamil', 'tomek']
+let points = [5, 3, 12, 1]
+let chart_name = "Statistics"
+drawChart(players, points, chart_name)
